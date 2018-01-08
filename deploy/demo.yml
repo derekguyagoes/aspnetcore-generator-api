@@ -8,5 +8,5 @@ services:
   mail:
     image: mailhog/mailhog
     ports:
-      - "${PORT_MAILHOG-8082}:8025"
+      - "${PORT_MAILHOG-8081}:8025"
   
